@@ -1,0 +1,7 @@
+﻿services:
+  ecommerce.api:
+    image: ecommerce.api
+    build:
+      context: .
+      dockerfile: eCommerce.API/Dockerfile
+
