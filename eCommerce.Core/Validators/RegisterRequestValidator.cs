@@ -21,7 +21,7 @@ public class RegisterRequestValidator : AbstractValidator<RegisterRequest>
 
         RuleFor(x => x.PersonName)
             .NotEmpty()
-            .WithMessage("Person name is required");
+            .WithMessage("Person name cant be empty");
         
         RuleFor(x => x.Gender)
             .NotEmpty()
